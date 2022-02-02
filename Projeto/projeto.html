@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Projeto</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="projeto.css" />
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="projeto.js"></script>
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<section>
+		<div class="container">
+			<h1>Cadastro de Clientes</h1>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="nome">Nome:</label>
+						<input type="text" id="nome" name="nome" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="idade">Idade:</label>
+						<input type="text" id="idade" name="idade" class="form-control" />
+					</div>
+					<div class="form-group">
+						<button id="btnSalvar" class="btn btn-primary">Salvar</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<table class="table table-striped" id="idtabela">
+						<thead class="table-dark">
+							<tr>
+								<th>Nome</th>
+								<th>Idade</th>
+								
+							</tr>
+						</thead>
+						<tbody id="tbTabela">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>

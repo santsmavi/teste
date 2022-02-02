@@ -1,0 +1,13 @@
+header {
+    background-color:rgb(159, 75, 255); 
+    height:150px; 
+    margin-bottom:20px;
+}
+body {
+    background:rgb(46, 241, 255);
+}
+footer {
+    background:rgb(250, 220, 225);
+    height:100px;
+     margin-top:20px;
+    }
